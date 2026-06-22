@@ -54,7 +54,7 @@ The **Iris dataset** contains 150 samples of iris flowers across 3 species (*set
 - Petal length & width (cm)
 
 <p align="center">
-  <img src="assets/01_original_dataset.png" width="600" alt="Original Iris dataset scatter plot">
+  <img src="01_original_dataset.png" width="600" alt="Original Iris dataset scatter plot">
 </p>
 
 ---
@@ -108,14 +108,14 @@ The elbow method confirms **k = 3**, matching the 3 known iris species.
 
 ### 🟩 Agglomerative Hierarchical Clustering
 <p align="center">
-  <img src="assets/05_agglomerative_clusters.png" width="600" alt="Agglomerative clusters">
+  <img src="05_agglomerative_clusters.png" width="600" alt="Agglomerative clusters">
 </p>
 
 > **Silhouette Score: `0.5111`** 🏆 *Best performing model*
 
 ### 🟥 DBSCAN
 <p align="center">
-  <img src="assets/06_dbscan_clusters.png" width="600" alt="DBSCAN clusters">
+  <img src="06_dbscan_clusters.png" width="600" alt="DBSCAN clusters">
 </p>
 
 > **Silhouette Score: `0.3703`** — DBSCAN found 2 dense regions and flagged 34 points as noise/outliers, since two of the iris species (*versicolor* and *virginica*) overlap in feature space.
@@ -125,7 +125,7 @@ The elbow method confirms **k = 3**, matching the 3 known iris species.
 ## 🏁 Final Comparison
 
 <p align="center">
-  <img src="assets/07_silhouette_comparison.png" width="600" alt="Silhouette score comparison across algorithms">
+  <img src="07_silhouette_comparison.png" width="600" alt="Silhouette score comparison across algorithms">
 </p>
 
 | Model | Silhouette Score | Notes |
