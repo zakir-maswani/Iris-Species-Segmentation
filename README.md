@@ -89,19 +89,19 @@ flowchart LR
 2D projection capturing most of the dataset's variance — used as the working space for K-Means and Agglomerative Clustering.
 
 <p align="center">
-  <img src="assets/02_pca_projection.png" width="600" alt="PCA projection">
+  <img src="02_pca_projection.png" width="600" alt="PCA projection">
 </p>
 
 ### Finding the Optimal Number of Clusters
 The elbow method confirms **k = 3**, matching the 3 known iris species.
 
 <p align="center">
-  <img src="assets/03_elbow_method.png" width="600" alt="Elbow method for optimal k">
+  <img src="03_elbow_method.png" width="600" alt="Elbow method for optimal k">
 </p>
 
 ### 🟦 K-Means Clustering
 <p align="center">
-  <img src="assets/04_kmeans_clusters.png" width="600" alt="K-Means clusters">
+  <img src="04_kmeans_clusters.png" width="600" alt="K-Means clusters">
 </p>
 
 > **Silhouette Score: `0.5092`**
